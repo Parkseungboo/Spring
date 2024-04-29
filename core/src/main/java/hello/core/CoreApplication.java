@@ -10,6 +10,8 @@ public class CoreApplication {
 		SpringApplication.run(CoreApplication.class, args);
 
 		System.out.println("hello world");
+		System.out.println("hello world");
+		System.out.println("hello world");
 	}
 
 }
