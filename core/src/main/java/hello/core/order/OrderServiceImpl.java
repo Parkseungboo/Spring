@@ -2,6 +2,7 @@ package hello.core.order;
 
 import hello.core.discount.DisCountPolicy;
 import hello.core.discount.FixDiscountPolicy;
+import hello.core.member.Member;
 import hello.core.member.MemberRepository;
 import hello.core.member.MemoryMemberRepository;
 
@@ -25,6 +26,6 @@ public class OrderServiceImpl implements OrderService{
 
         // return order;
 
-        return new Order(memberId, itemName, itemPrice, discountPrice)
+        return new Order(memberId, itemName, itemPrice, discountPrice);
     }
 }
