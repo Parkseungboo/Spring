@@ -22,7 +22,6 @@ public class Order {
     }
 
     public int calculatePrice() {
-
         return itemPrice - discountPrice;
     }
 
@@ -34,5 +33,37 @@ public class Order {
                 ", itemPrice=" + itemPrice +
                 ", discountPrice=" + discountPrice +
                 '}';
+    }
+
+    public int getDiscountPrice() {
+        return discountPrice;
+    }
+
+    public void setDiscountPrice(int discountPrice) {
+        this.discountPrice = discountPrice;
+    }
+
+    public int getItemPrice() {
+        return itemPrice;
+    }
+
+    public void setItemPrice(int itemPrice) {
+        this.itemPrice = itemPrice;
+    }
+
+    public String getItemName() {
+        return itemName;
+    }
+
+    public void setItemName(String itemName) {
+        this.itemName = itemName;
+    }
+
+    public Long getMemberId() {
+        return memberId;
+    }
+
+    public void setMemberId(Long memberId) {
+        this.memberId = memberId;
     }
 }
